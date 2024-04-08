@@ -20,10 +20,10 @@ public class UserEntity {
     @Column(nullable = false, unique = true)
     private String email;
 
+    @JsonIgnore //민감정보 무시
     @Column(nullable = false)
     private String password;
 
-    @JsonIgnore //민감정보 무시
     @Column(nullable = false)
     private String name;
 

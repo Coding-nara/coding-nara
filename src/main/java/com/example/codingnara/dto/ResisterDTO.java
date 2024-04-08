@@ -8,7 +8,6 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 @RequiredArgsConstructor
 public class ResisterDTO {
-    private int id;
     private String userEmail;
     private String userPassWord;
     private String userName;
